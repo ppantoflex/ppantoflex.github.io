@@ -1,1 +1,1 @@
-{"version":3,"sources":["main.js"],"names":["$"],"mappings":"aAAAA,EAAE","file":"main.js","sourcesContent":["$(function () {\r\n    \r\n});\r\n"]}
+{"version":3,"sources":["main.js"],"names":["$","on","toggleClass"],"mappings":"aAAAA,EAAE,WACEA,EAAE,aAAaC,GAAG,QAAS,WAD7BD,EAAA,oBAAYE,YAAA","file":"main.js","sourcesContent":["$(function () {\r\n    $('.nav-menu').on('click', function () {\r\n        $('.heared-top__nav').toggleClass('nav__active');\r\n    });\r\n});\r\n"]}
